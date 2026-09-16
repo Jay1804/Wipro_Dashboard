@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+
+# Generated report outputs (export_csv / process_csv_to_xlsx write these to the project root)
+*.csv
+*.xlsx
+!Wipro Limited - Dashboard.xlsx
+
+# Browser automation debris from an earlier exploratory session
+.playwright-mcp/
+
+# Credentials override
+.env
+
+# OS
+.DS_Store
+Thumbs.db
